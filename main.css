@@ -1,0 +1,73 @@
+header {
+  position: fixed;
+  height: 100px;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+}
+
+header h1 {
+  margin: 30px 30px;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  top: 55px;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin: 30px;
+  position: relative;
+  left: 300px;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li a:hover {
+  color: #41A6CA;
+}
+
+#homeDonateHeaderImage {
+  height: 95px;
+  width: 95px;
+  margin: 3px;
+  position: fixed;
+  top: 0;
+  right: 100px;
+}
+
+article {
+  position: relative;
+  top: 100px;
+}
+
+hr {
+  width: 900px;
+}
+
+.homeGalleryBox h5 hr {
+  width: 2%;
+  display: inline-block;
+}
+
+#homeSearchInput {
+  position: fixed;
+  top: 62px;
+  right: 305px;
+}
+
+button, button img {
+  background-color: #fff;
+  border: none;
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  right: 270px;
+  top: 55px;
+}
