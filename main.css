@@ -3,26 +3,32 @@ body {
     margin: 0 auto;
 }
 
+#historyBody {
+  background-color: #41A6CA;
+  padding-top: 30px; 
+}
+
+
 header {
   position: fixed;
-  height: 100px;
+  height: 120px;
   z-index: 1;
   background-color: #fff;
   width: 100%;
   top: 0;
 }
 
-header h1 {
-  margin: 30px;
+#logo {
+  margin: 25px 205px;
 }
 
-nav {
-  text-align: center;
-  position: fixed;
-  top: 55px;
+.mainNav {
+  position: fixed;  
+  top: 80px;
+  left: 100px;
 }
 
-nav li {
+.mainNav li {
   list-style: none;
   display: inline;
   margin: 30px;
@@ -30,13 +36,61 @@ nav li {
   left: 300px;
 }
 
-nav li a {
+.mainNav li a {
   text-decoration: none;
   text-transform: uppercase;
+  color: #41A6CA;
 }
 
-nav li a:hover {
+.mainNav li a:hover {
+  color: #99DC54;
+}
+
+.smallNav {
+  position: fixed;  
+  top: 10px;
+  right: 550px;
+  font-size: 12px;
+}
+
+.smallNav li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  position: relative;
+  left: 300px;
+}
+
+.smallNav li a {
+  text-decoration: none;
+  text-transform: camelcase;
+}
+
+.smallNav li a:hover {
+  color: #99DC54;
+}
+
+#historyLinks {
+  position: relative;
+  margin: 25px 0px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+#historyLinks li {
+  list-style: none;
+  display: inline;
+  margin: 30px;
+}
+
+#historyLinks li a {
+  padding: 0 10px;
+  text-decoration: none;
   color: #41A6CA;
+}
+
+#historyLinks li a:hover {
+  color: #99DC54;
 }
 
 #homeDonateHeaderImage {
@@ -44,8 +98,8 @@ nav li a:hover {
   width: 95px;
   margin: 3px;
   position: fixed;
-  top: 0;
-  right: 100px;
+  top: 10px;
+  right: 55px;
 }
 
 article {
@@ -62,29 +116,29 @@ hr {
   display: inline-block;
 }
 
-#homeSearchInput {
+#homeSearchBar input {
   position: fixed;
-  top: 62px;
-  right: 305px;
+  top: 50px;
+  right: 291px;
 }
 
-button, button img {
+#homeSearchBar button, #homeSearchBar button img {
   background-color: #fff;
   border: none;
   height: 35px;
   width: 35px;
   position: fixed;
-  right: 270px;
-  top: 55px;
+  right: 256px;
+  top: 43px;
 }
 
 
-div.donateCoverImage {
-    background-image: url(images/ocean-4.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-  }
+.donateCoverImage {
+  background-image: url(images/ocean-4.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
 
 h2 {
     text-align: center;
@@ -102,6 +156,42 @@ h2 {
 #plea {
     width: 30% ;
     height: 300px;
+}
+.articleBox {
+  background-color: #fff;
+  width: 70%;
+  margin: auto; 
+  padding: 25px 0 0 0;
+  border-radius: 10px;
+}
+
+.articleBox h1, .articleBox h2, .articleBox h3, .articleBox h4, .articleBox h5, .articleBox h6 {
+  position: relative;
+  width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.articleBox h4 {
+  text-transform: uppercase;
+}
+
+.articleImage {
+  width: 100%;
+  margin: auto;
+}
+
+.articleLine > hr {
+  width: auto;
+  margin: 25px 0;
+}
+
+.articleText {
+  padding: 0 40px;
+}
+
+.articleList {
+  padding: 0 80px;
 }
 
 div.donationBox {
@@ -125,7 +215,7 @@ h4 {
     margin: 10px;
 }
 
-div.giveContents {
+.giveContents {
     float: left;
 }
 
@@ -133,10 +223,6 @@ div.giveContents {
     width: 500px;
 }
 
-footer {
-    clear: left;
-    margin-left: 10px;
-}
  h5 {
     margin: 10px 0 0;
  }
@@ -168,6 +254,7 @@ label {
 #submit {
     font-size: 24px;
     margin: 0 10px 10px 0;
+    background-color: #99DC54;
 }
 
 #other {
@@ -178,4 +265,11 @@ label {
 
 form {
   margin-left: 10px;
+}
+
+footer {
+    clear: left;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px;
 }
