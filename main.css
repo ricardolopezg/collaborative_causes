@@ -89,6 +89,13 @@ header {
   color: #41A6CA;
 }
 
+#homeIntroImage {
+  width: 100%;
+  background-image: url(images/placeholder_988x426.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
 #historyLinks li a:hover {
   color: #99DC54;
 }
@@ -104,17 +111,65 @@ header {
 
 article {
   position: relative;
-  top: 100px;
+  top: 100px; 
+  background-color: #02B4CC;
 }
 
-hr {
-  width: 900px;
+hr.full{
+  width: 75%;
 }
 
-.homeGalleryBox h5 hr {
-  width: 2%;
+div.homeGalleryBox {
+  float: left;
+  padding: 10px;
+  width: 30%;
+  height: 350px;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 5px;
+
+}
+
+h5.galleryHeader {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.homeGalleryBox p {
+  margin-bottom: 10px;  
+}
+
+img.galleryImage {
+  width: 100%;
+}
+
+#homeArticleGallery {
+  background-color: #02B4CC;
+  height: 400px;
+  margin: 0 auto; 
+}
+
+#homeSignUp {
+  width: 100%;
+  text-align: center;
+}
+
+.homeGalleryBox hr {
+  width: 30%;
   display: inline-block;
 }
+
+#homeSearchInput {
+  position: fixed;
+  top: 62px;
+  right: 305px;
+  border: 1px solid gray;
+}
+
+.emailInput {
+  border: none;
+  margin-top: 5px;
+  }
 
 #homeSearchBar input {
   position: fixed;
@@ -130,6 +185,10 @@ hr {
   position: fixed;
   right: 256px;
   top: 43px;
+}
+
+input:focus, button:focus {
+  outline: none;
 }
 
 
@@ -149,12 +208,12 @@ h2 {
 }
 
 #donation {
-    width: 60%;
+    width: 50%;
     height: 300px;
 }
 
 #plea {
-    width: 30% ;
+    width: 40% ;
     height: 300px;
 }
 .articleBox {
@@ -198,6 +257,7 @@ div.donationBox {
     float: left;
     background-color: lightblue;
     margin: 20px;
+    border-radius: 10px;
 }
 
 h3 {
@@ -213,6 +273,7 @@ h4 {
     width: 150px;
     height: 150px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .giveContents {
@@ -224,7 +285,7 @@ h4 {
 }
 
  h5 {
-    margin: 10px 0 0;
+    margin: 10px 0;
  }
  
  div.wayToGive {
@@ -233,10 +294,11 @@ h4 {
     margin: 20px;
     width: 700px;
     height: 170px;
+    border-radius: 10px;
  }
 
 p {
-    top-margin: 0;
+    margin: 0;
 }
 
 #pleaText {
