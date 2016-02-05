@@ -96,6 +96,10 @@ header {
   height: 500px;
 }
 
+#homeIntroImage h1, #homeIntroImage h2, #homeIntroImage h3, #homeIntroImage h4, #homeIntroImage h5, #homeIntroImage h6 {
+  color: #fff;
+}
+
 #historyLinks li a:hover {
   color: #99DC54;
 }
@@ -140,7 +144,7 @@ h5.galleryHeader {
 }
 
 img.galleryImage {
-  width: 100%;
+  width: 120%;
 }
 
 #homeArticleGallery {
