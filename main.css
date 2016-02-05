@@ -63,7 +63,8 @@ header {
 
 .smallNav li a {
   text-decoration: none;
-  text-transform: camelcase;
+  text-transform: capitalize;
+  color: #41A6CA;
 }
 
 .smallNav li a:hover {
@@ -159,7 +160,7 @@ img.galleryImage {
   display: inline-block;
 }
 
-#homeSearchInput {
+#homeSearchBar {
   position: fixed;
   top: 62px;
   right: 305px;
