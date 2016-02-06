@@ -1,7 +1,7 @@
 body {
     width: auto;
     margin: 0 auto;
-}ddd
+}
 
 #historyBody {
   background-color: #41A6CA;
@@ -127,7 +127,7 @@ hr.full{
 div.homeGalleryBox {
   float: left;
   padding: 10px;
-  width: 30%;
+  width: 350px;
   height: 350px;
   background-color: lightblue;
   border-radius: 10px;
@@ -138,14 +138,15 @@ div.homeGalleryBox {
 h5.galleryHeader {
   text-align: center;
   padding: 0 10px;
+
 }
 
 .homeGalleryBox p {
-  margin-bottom: 10px;  
+  margin-bottom: 20px;  
 }
 
 img.galleryImage {
-  width: 120%;
+  width: 100%;
 }
 
 #homeArticleGallery {
@@ -235,6 +236,7 @@ h2 {
   width: 900px;
   margin: auto;
   text-align: left;
+  padding-left: 10px;
 }
 
 .articleBox h4 {
