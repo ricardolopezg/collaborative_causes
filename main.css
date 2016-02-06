@@ -99,6 +99,12 @@ header {
 
 #homeIntroImage h1, #homeIntroImage h2, #homeIntroImage h3, #homeIntroImage h4, #homeIntroImage h5, #homeIntroImage h6 {
   color: #fff;
+  text-align: center;
+  position: relative;
+  top: 25%;
+  font-size: 44px;
+  margin: 0;
+  color: #fff
 }
 
 #historyLinks li a:hover {
